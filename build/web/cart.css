@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+    border:0px;
+    background-color:navajowhite;
+    
+}
+
+.header{
+    width:120px;
+    height:10px;
+    background:none;
+    color:black;
+    margin-left: 50%;
+        
+}
+
+.ID{
+    margin-left:280px;
+    font-family: sans-serif;
+    color:white;
+}
+.data{
+    margin-top:10px;
+height:700px;
+background-color:papayawhip;
+    background-size: cover;
+}
+.adminlogo{height:50px;
+    width:50px;
+    background:white;
+    border-radius:40px;
+    
+}

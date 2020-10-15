@@ -1,0 +1,81 @@
+body{
+    margin:0px;
+    border:0px;
+    background-color:black;
+    
+}
+pre{
+    font-family: sans-serif;
+    border-left: 40px;
+    margin-left: 40%;
+    font-size: 20px;
+    color:black;
+}
+.header{
+    width:120px;
+    height:10px;
+    background:none;
+    color:black;
+    margin-left: 50%;
+        
+}
+
+.ID{
+    margin-left:280px;
+    font-family: sans-serif;
+    color:white;
+}
+.data{
+    margin-top:10px;
+height:700px;
+background-color:darkslategray;
+    background-size: cover;
+}
+.adminlogo{height:50px;
+    width:50px;
+    background:white;
+    border-radius:40px;
+    
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.wrapper .sidebar{
+    position:fixed;
+    margin-top: 17px;
+    width: 210px;
+    height: 60%;
+    background-color:slategrey;
+    padding:  30px 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.wrapper .sidebar h2{
+    color:darkslategrey;
+    text-transform: uppercase;
+    text-align: center;
+    margin:20px;
+}
+.wrapper .sidebar ul li{
+    color: black;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top:1px solid rgba(225, 225, 225, 0.05);
+    
+}
+.wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+.wrapper .sidebar ul li a .fas{
+    width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+    background: #cec3c3;
+}
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+    transition: 0.6s ease;
+}
